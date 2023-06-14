@@ -15,10 +15,23 @@ header {
     flex-basis: 30%;
     margin: 20px;
     text-align: center;
+    animation: slide-in-bottom 1s ease-out forwards;
   }
 
   h2 {
     font-size: 20px;
     margin-bottom: 10px;
   }
+
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
   
