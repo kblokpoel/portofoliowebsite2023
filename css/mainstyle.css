@@ -4,7 +4,7 @@
   }
   
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     transition: background-color 0.15s ease;
@@ -65,7 +65,7 @@
   }
   
   .footer {
-    background-color: #0a0a0a;
+    background-color: #252525;;
     padding: 10px;
     text-align: center;
     color: white;
@@ -218,6 +218,18 @@
 .header-title{
   text-align: center;
 }
+
+
+ @keyframes slide-in-bottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} 
 
 
 
